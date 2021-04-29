@@ -18,5 +18,13 @@
         {
             return pecas[linha, coluna];
         }
+
+        //Construtor que guia a colocação da peça na posição linha,coluna
+        public void colocarPeca(Peca p, Posicao pos)
+        {
+            pecas[pos.linha, pos.coluna] = p;
+            p.posicao = pos;
+        }
+        
     }
 }
