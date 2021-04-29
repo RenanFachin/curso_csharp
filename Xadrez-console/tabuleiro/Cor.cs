@@ -2,7 +2,7 @@
 {
     enum Cor
     {
-        //Apenas brancas e pretas para o jogo de xadrez
+        //Apenas brancas e pretas para o jogo de 
         Branca,
         Preta,
         Amarela,
